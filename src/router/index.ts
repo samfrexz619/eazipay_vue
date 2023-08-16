@@ -8,7 +8,7 @@ const router = createRouter({
       path: '/',
       name: 'Dashboard',
       meta: {
-        layout: 'dashboard'
+        layout: 'navbar'
       },
       component: HomeView
     },

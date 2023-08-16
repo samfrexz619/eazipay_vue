@@ -1,10 +1,13 @@
 <template>
-  <div>
-    hello
-  </div>
+  <main>
+    <div>
+      <BaseBanner  />
+    </div>
+  </main>
 </template>
 
 <script setup lang="ts">
+import BaseBanner from '@/components/landingPage/BaseBanner.vue'
 
 </script>
 
