@@ -1,0 +1,33 @@
+@font-face {
+  font-family: aeonik;
+  src: url('./assets/fonts/AeonikTRIAL-Regular.otf');
+  font-weight: normal;
+}
+@font-face {
+  font-family: aeonik;
+  src: url('./assets/fonts/AeonikTRIAL-Light.otf');
+  font-weight: 300;
+}
+@font-face {
+  font-family: aeonik;
+  src: url('./assets/fonts/AeonikTRIAL-Bold.otf');
+  font-weight: bold;
+}
+
+.text {
+  font-family: aeonik;
+}
+
+body {
+  font-family: aeonik;
+  background-image: url('./gradients.png');
+  background-repeat: no-repeat;
+  background-size: cover;
+  scrollbar-width: none;
+    -ms-overflow-style: none;
+    &::-webkit-scrollbar {
+      display: none;
+    }
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}

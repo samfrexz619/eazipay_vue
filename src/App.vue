@@ -1,11 +1,16 @@
 <script setup lang="ts">
+import { RouterView } from 'vue-router'
+import NavBar from './components/layouts/NavBar.vue';
+
 </script>
 
 <template>
-  <main class="text-red-500">
+  <main>
+    <NavBar  />
   <RouterView  />
   </main>
 </template>
 
-<style scoped>
+<style lang="scss">
+
 </style>
