@@ -11,10 +11,14 @@
       </div>
       <div class="hidden lg:flex gap-x-7">
         <BaseButton variant='outlined' class='py-9px px-14'>
-            Log in
+            <router-link to="/dashboard">
+              Log in
+            </router-link>
         </BaseButton>
         <BaseButton variant='filled' class='py-9px px-14'>
-            Register
+            <router-link to="/dashboard">
+              Register
+            </router-link>
         </BaseButton>
       </div>
       <button @click="handleShowNav" class="block lg:hidden text-2xl">

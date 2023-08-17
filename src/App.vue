@@ -2,6 +2,7 @@
 import { RouterView, useRoute } from 'vue-router'
 import { computed } from 'vue';
 import NavBar from './components/layouts/NavBar.vue';
+import DashboardLayout from './components/layouts/DashboardLayout.vue';
 
 
 const route = useRoute() 
@@ -12,6 +13,9 @@ const layoutComponent = computed(()=> {
   switch(routeLayout) {
     case 'navbar':
       currentLayout = NavBar
+      break
+    case 'dashboard':
+      currentLayout = DashboardLayout
       break
     case 'empty':
       currentLayout = ''

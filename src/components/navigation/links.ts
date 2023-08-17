@@ -1,8 +1,9 @@
+import { uid } from "uid"
 
-type Links = {
+export type Links = {
   path: string;
   name: string;
-  id: number;
+  id: number | string;
 }
 
 export const links: Links[] = [
@@ -48,5 +49,53 @@ export const resources:Links[] = [
     path: '#',
     name: 'Customer Stories',
     id: 8
+  },
+]
+
+export const dashboardLinks: Links[] = [
+  {
+    path: 'dashboard',
+    name: 'dashboard',
+    id: uid(4)
+  },
+  {
+    path: 'wallet',
+    name: 'wallet',
+    id: uid(4)
+  },
+  {
+    path: 'wallet',
+    name: 'employment management',
+    id: uid(4)
+  },
+  {
+    path: 'payroll',
+    name: 'payroll',
+    id: uid(4)
+  },
+  {
+    path: 'wallet',
+    name: 'compliance',
+    id: uid(4)
+  },
+  {
+    path: 'wallet',
+    name: 'quick loan',
+    id: uid(4)
+  },
+  {
+    path: 'wallet',
+    name: 'book keeping',
+    id: uid(4)
+  },
+  {
+    path: 'wallet',
+    name: 'support',
+    id: uid(4)
+  },
+  {
+    path: 'wallet',
+    name: 'settings',
+    id: uid(4)
   },
 ]
