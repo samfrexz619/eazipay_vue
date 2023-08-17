@@ -27,3 +27,26 @@ export const links: Links[] = [
     id: 4
   },
 ]
+
+export const resources:Links[] = [
+  {
+    path: '#',
+    name: 'FAQs',
+    id: 5
+  },
+  {
+    path: '#',
+    name: 'Blog',
+    id: 6
+  },
+  {
+    path: '#',
+    name: 'Career',
+    id: 7
+  },
+  {
+    path: '#',
+    name: 'Customer Stories',
+    id: 8
+  },
+]

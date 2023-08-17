@@ -1,11 +1,11 @@
 <template>
   <header class="w-full">
     <nav class="lg:w-86 w-96 mx-auto h-[14vh] flex items-center justify-between">
-      <div>
+      <router-link to="">
         <img src="@/assets/logo.svg" alt="">
-      </div>
+      </router-link>
       <div class="hidden lg:flex gap-x-9">
-        <router-link to="#" v-for="link in links" :key="link.id" class='text-textPry'>
+        <router-link to="#" v-for="link in links" :key="link.id" class='text-textPry font-bold'>
           {{ link.name }}
         </router-link>
       </div>

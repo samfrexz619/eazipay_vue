@@ -3,7 +3,9 @@
     <nav class="bg-white relative w-[300px]">
       <div class="px-3 py-7">
         <div class='flex justify-between'>
-          <img src='@/assets/logo.svg' alt="company's logo" />
+          <router-link to="/">
+            <img src='@/assets/logo.svg' alt="company's logo" />
+          </router-link>
           <button @click="openNav" class='cursor-pointer'>
             <CloseIcon  />
           </button>

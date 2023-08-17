@@ -12,7 +12,8 @@ export default {
         bgg: 'rgba(17,69,59,.5)',
         eazi_red: {
           10: '#ea4e4b'
-        }
+        },
+        grey_10: '#7C7C7C'
       },
       boxShadow: {
         100: '0px 8px 16px 0px rgba(17, 69, 59, 0.20)',

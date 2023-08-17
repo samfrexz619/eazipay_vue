@@ -47,7 +47,7 @@
 </template>
 
 <script setup lang="ts">
-import BaseCard from './BasCard.vue';
+import BaseCard from './BaseCard.vue';
 
 </script>
 
