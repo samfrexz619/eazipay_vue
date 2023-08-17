@@ -1,5 +1,5 @@
 <template>
-  <aside @click.self="openNav" class="fixed inset-y-0 w-full flex lg:hidden bg-bgg justify-end">
+  <aside @click.self="openNav" class="fixed inset-y-0 w-full flex lg:hidden bg-bgg justify-end z-50">
     <nav class="bg-white relative w-[300px]">
       <div class="px-3 py-7">
         <div class='flex justify-between'>

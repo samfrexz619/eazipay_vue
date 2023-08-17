@@ -17,7 +17,8 @@ export default {
       },
       boxShadow: {
         100: '0px 8px 16px 0px rgba(17, 69, 59, 0.20)',
-        200: '-11px 0px 19px 0px rgba(23, 23, 23, 0.30), 0px 13px 20px 0px rgba(23, 23, 23, 0.20)'
+        200: '-11px 0px 19px 0px rgba(23, 23, 23, 0.30), 0px 13px 20px 0px rgba(23, 23, 23, 0.20)',
+        300: '0px 20px 48px 0px rgba(170, 170, 170, 0.29);'
       },
       spacing: {
         '9px': '9px',
@@ -27,7 +28,8 @@ export default {
         '50px': '50px',
       },
       fontSize: {
-        55: '55px'
+        55: '55px',
+        40: '40px'
       }
     },
   },
