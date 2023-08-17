@@ -1,6 +1,6 @@
 <template>
   <div @click.self="closeNav" class="fixed inset-y-0 w-full flex lg:hidden bg-bgg justify-start z-50">
-    <div class="bg-white relative w-[300px]">
+    <div class="bg-white relative w-300">
       <div class="bg-white shadow-10 nav w-full overflow-y-auto">
     <div class="w-full">
       <div class="flex items-center justify-center min-h-[19vh] w-full">

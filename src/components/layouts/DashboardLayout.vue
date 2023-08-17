@@ -1,15 +1,17 @@
 <template>
   <main class="w-full dashboard">
-    <div class="flex">
-      <aside class="fixed inset-y-0 w-272 hidden lg:flex flex-col">
+    <div class="flex justify-between">
+      <aside class="fixed inset-y-0 w-300 hidden lg:flex flex-col bg-white">
         <AppDashboard :links="dashboardLinks" />
       </aside>
       <section class="">
-        <div class="fixed top-0 lg:w-w_calc w-full lg:left-272 left-0">
+        <div class="fixed top-0 lg:w-w_calc w-full lg:left-300 left-0 shadow-20">
           <BaseTop  @open="handleShowDashboard"/>
         </div>
-        <main class="top-[13vh] fixed flex bottom-0 w-full lg:w-w_calc bg-[#F9FAFC] left-0 lg:left-272">
-          <RouterView  />
+        <main class="top-[13vh] fixed flex flex-col bottom-0 w-full lg:w-w_calc bg-[#F9FAFC] left-0 lg:left-300">
+          <div class="overflow-y-auto w-full">
+            <RouterView  />
+          </div>
         </main>
       </section>
     </div>

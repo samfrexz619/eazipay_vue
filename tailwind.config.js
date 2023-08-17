@@ -15,7 +15,8 @@ export default {
         },
         grey_10: '#7C7C7C',
         txtBold: '#292A29',
-        pryHov: 'rgba(240, 247, 235, 0.50)'
+        pryHov: 'rgba(240, 247, 235, 0.50)',
+        lemon: '#DAE9D0'
       },
       boxShadow: {
         100: '0px 8px 16px 0px rgba(17, 69, 59, 0.20)',
@@ -32,12 +33,14 @@ export default {
         '50px': '50px',
         '100': '100vh',
         115: '115vh',
-        w_calc: 'calc(100% - 272px)',
-        272: '300px',
+        w_calc: 'calc(100% - 300px)',
+        300: '300px',
+        '85%': '85%',
       },
       fontSize: {
         55: '55px',
-        40: '40px'
+        40: '40px',
+        16: '16px',
       },
       borderRadius: {
         100: '0px 2px 2px 0px'
