@@ -1,5 +1,7 @@
 <template>
-  <div class="bg-white shadow-10 nav w-full overflow-y-auto lg:block hidden">
+  <div @click.self="closeNav" class="fixed inset-y-0 w-full flex lg:hidden bg-bgg justify-start z-50">
+    <div class="bg-white relative w-[300px]">
+      <div class="bg-white shadow-10 nav w-full overflow-y-auto">
     <div class="w-full">
       <div class="flex items-center justify-center min-h-[19vh] w-full">
         <img src="@/assets/logo-white.svg" alt="logo" class="block">
@@ -31,22 +33,26 @@
       </nav>
     </div>
   </div>
+    </div>
+  </div>
 </template>
 
 <script setup lang="ts">
 import { RouterLink, useRoute } from 'vue-router';
-import { Links } from './links';
 import DashboardIcons from './DashboardIcons.vue';
 import ChevIcons from '../ui/icons/ChevIcon.vue'
-
+import { Links } from './links';
 
 defineProps<{
   links: Links[]
 }>()
+
+const emits = defineEmits(['close'])
+
+const closeNav =()=> {
+  emits('close')
+}
 const route = useRoute()
-
-console.log(route.name)
-
 
 </script>
 

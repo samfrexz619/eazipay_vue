@@ -33,7 +33,7 @@ export default {
         '100': '100vh',
         115: '115vh',
         w_calc: 'calc(100% - 272px)',
-        272: '272px',
+        272: '300px',
       },
       fontSize: {
         55: '55px',

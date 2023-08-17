@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="">
     <nav>
       <TopNav  />
     </nav>

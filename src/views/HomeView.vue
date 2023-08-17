@@ -1,5 +1,5 @@
 <template>
-  <main>
+  <main class="home">
     <div>
       <BaseBanner  />
       <VBusiness  />
@@ -19,5 +19,7 @@ import VSubscribe from '@/components/landingPage/VSubscribe.vue';
 </script>
 
 <style scoped>
-
+.home {
+  
+}
 </style>

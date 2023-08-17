@@ -1,11 +1,24 @@
 <template>
-  <div class="min-h-[13vh] bg-white w-full shadow-20">
-    <div> hello</div>
+  <div class="h-[13vh] bg-white w-full shadow-20">
+    <div class="h-full flex items-center">
+      <div class="w-96 mx-auto">
+        <button @click="openNav" class="block lg:hidden">
+          <MenuIcon  />
+        </button>
+     hello
+      </div>
+    </div>
   </div>
 </template>
 
 <script setup lang="ts">
+import MenuIcon from '../ui/icons/MenuIcon.vue';
 
+const emits = defineEmits(['open'])
+
+const openNav =()=> {
+  emits('open')
+}
 </script>
 
 <style scoped lang="scss">
