@@ -1,6 +1,6 @@
 <template>
   <div class="exclusive w-full">
-    <div class="w-96 lg:w-86 mx-auto min-h-[100vh] py-10">
+    <div class="w-96 lg:w-86 mx-auto min-h-100 py-12">
       <div class="flex flex-wrap justify-between items-center h-full">
         <div class="w-full lg:w-1/2 lg:block flex flex-col items-center py-3 lg:py-0">
           <h2 class="lg:text-55 text-40 text-pry font-medium leading-tight">

@@ -13,12 +13,14 @@ export default {
         eazi_red: {
           10: '#ea4e4b'
         },
-        grey_10: '#7C7C7C'
+        grey_10: '#7C7C7C',
+        txtBold: '#292A29'
       },
       boxShadow: {
         100: '0px 8px 16px 0px rgba(17, 69, 59, 0.20)',
         200: '-11px 0px 19px 0px rgba(23, 23, 23, 0.30), 0px 13px 20px 0px rgba(23, 23, 23, 0.20)',
-        300: '0px 20px 48px 0px rgba(170, 170, 170, 0.29);'
+        300: '0px 20px 48px 0px rgba(170, 170, 170, 0.29);',
+        // 10: '0px 20px 48px 0px rgba(170, 170, 170, 0.29);'
       },
       spacing: {
         '9px': '9px',
@@ -26,6 +28,7 @@ export default {
         86: '86%',
         '60px': '60px',
         '50px': '50px',
+        '100': '100vh'
       },
       fontSize: {
         55: '55px',
