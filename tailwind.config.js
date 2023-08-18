@@ -17,6 +17,7 @@ export default {
         txtBold: '#292A29',
         pryHov: 'rgba(240, 247, 235, 0.50)',
         lemon: '#DAE9D0',
+        text_green: '#219653'
       },
       boxShadow: {
         100: '0px 8px 16px 0px rgba(17, 69, 59, 0.20)',

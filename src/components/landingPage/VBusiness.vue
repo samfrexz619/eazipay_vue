@@ -1,6 +1,6 @@
 <template>
-  <section class="business w-full py-16 lg:py-10">
-    <div class="lg:w-86 w-96 mx-auto flex items-center justify-center min-h-[115vh] flex-col"> 
+  <section class="business w-full py-16 lg:py-3">
+    <div class="lg:w-86 w-96 mx-auto flex items-center justify-center min-h-[115vh] lg:h-[115vh] flex-col"> 
       <div class="">
         <h1 class="lg:text-[53px] text-[40px] font-bold text-pry leading-none">
           For Individuals and Businesses
@@ -38,7 +38,7 @@
         </div>
       </div>
       <div>
-        <p class="text-center">
+        <p class="text-center text-[20px]">
         We are happy to answer your queries. Please, reach us at <br /> <a href="mailto:hello@myeazipay.com" class="text-eazi_red-10">hello@myeazipay.com</a> and expect our response shortly after.
         </p>
       </div>
