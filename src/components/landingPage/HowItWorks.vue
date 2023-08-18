@@ -1,6 +1,6 @@
 <template>
   <div class="w-full py-10">
-    <div class="w-96 lg:w-86 mx-auto eazi h-115 py-10">
+    <div class="w-96 lg:w-86 mx-auto eazi lg:h-115 min-h-[80vh] py-10">
       <div class="text-center pb-10">
         <h2 class="capitalize text-pry lg:text-55 text-40 font-medium">
           How eazipay works

@@ -9,7 +9,7 @@
           </div>
         </div>
       </div>
-      <div class="row-auto">
+      <div class="row-auto self-stretch flex">
         <PayrollCard  />
       </div>
     </div>

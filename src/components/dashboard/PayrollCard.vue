@@ -1,10 +1,10 @@
 <template>
-  <div class="w-full rounded-3xl bg-white border border-solid border-[#E7E8E7] shadow-30 h-full">
-    <div>
-      <div class="py-4 bg-lemon round flex justify-center items-center h-full">
+  <div class="w-full rounded-3xl bg-white border border-solid border-[#E7E8E7] shadow-30 h-auto">
+    <div class="h-auto">
+      <div class="py-4 bg-lemon round flex justify-center items-center">
         <p class="text-textPry font-semibold">Next payroll</p>
       </div>
-      <div class="py-9 flex justify-center flex-col items-center">
+      <div class="py-7 flex justify-center flex-col items-center mb-5">
         <div class="flex py-3 items-center gap-x-1">
           <svg width="24" height="25" viewBox="0 0 24 25">
             <use xlink:href="/sprite.svg#calendar" />
@@ -14,7 +14,8 @@
         <p class="font-bold text-[18px] text-textPry">{{ '09/11/2022' }}</p>
       </div>
       <i class="block w-full h-[1px] bg-[#E7E8E7]"></i>
-      <div class="py-3 px-4 h-full">
+    </div>
+      <div class="py-3 px-4 flex flex-col justify-end h-auto">
         <p class="text-textPry py-2 font-medium text-[16px]">Total Employee</p>
         <div class="w-full">
           <h2 class="font-bold text-[33px] pb-2">{{ sum }}</h2>
@@ -34,7 +35,6 @@
           </div>
         </div>
       </div>
-    </div>
   </div>
 </template>
 
