@@ -8,17 +8,17 @@
         <p class="text-2xl text-textPry">Get started in 3 simple steps</p>
       </div>
       <div class="flex mt-16 gap-x-5">
-        <div class="relative w-1/2">
+        <div class="relative lg:w-1/2 w-full flex lg:block justify-center">
           <img src='@/assets/bg.png' alt=""  class="max-w-[100%] lg:block hidden relative"/>
-          <div class='absolute -top-4 left-[23%]'>
+          <div class='absolute -top-4 lg:left-[23%]'>
             <img 
               src='@/assets/payroll.gif' 
               alt="phone" 
-              class='w-[280px] rounded-[50px]'
+              class='md:w-[280px] w-[200px] rounded-[50px]'
             />
           </div>
         </div>
-        <div className='w-1/2 '>
+        <div className='lg:w-1/2 lg:block hidden'>
           <div>
             <ProgressBar  />
           </div>
