@@ -1,6 +1,6 @@
 <template>
   <section class="w-full hero__banner mt-10">
-    <div class="w-96 h-[95vh] lg:w-86 mx-auto">
+    <div class="w-96 lg:h-[95vh] min-h-[70vh] lg:w-86 mx-auto">
         <div class="block lg:flex h-full items-center lg:justify-start text-center lg:text-start">
           <div class="w-full lg:w-1/2">
             <h1 class="lg:text-[62px] text-55 leading-none text-[#292A29] font-medium">
@@ -9,7 +9,7 @@
             </h1>
             <div class="pt-10">
               <p class="text-pry text-xl font-normal">
-              We’ve built an all-inclusive simple solution for <br /> individual and businesses to manage staff, pay <br /> salaries, bills, and relevant taxes all at once.
+              We’ve built an all-inclusive simple solution for <br class="hidden md:block" /> individual and businesses to manage staff, pay <br class="hidden md:block" /> salaries, bills, and relevant taxes all at once.
               </p>
             </div>
             <div class="pt-8 w-[250px] mx-auto lg:mx-0">
