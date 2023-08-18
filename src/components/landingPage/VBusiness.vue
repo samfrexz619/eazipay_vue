@@ -39,7 +39,7 @@
       </div>
       <div>
         <p class="text-center text-[20px]">
-        We are happy to answer your queries. Please, reach us at <br /> <a href="mailto:hello@myeazipay.com" class="text-eazi_red-10">hello@myeazipay.com</a> and expect our response shortly after.
+        We are happy to answer your queries. Please, reach us at <br class="hidden md:block" /> <a href="mailto:hello@myeazipay.com" class="text-eazi_red-10">hello@myeazipay.com</a> and expect our response shortly after.
         </p>
       </div>
     </div>

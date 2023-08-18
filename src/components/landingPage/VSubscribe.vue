@@ -5,7 +5,7 @@
         <img src="@/assets/dot.png" alt="" class="absolute -top-12 max-w-[50px]">
         <div class="lg:w-1/2 lg:pl-7 w-full lg:block flex flex-col items-center">
           <h2 class="lg:text-55 text-40 lg:text-start leading-none text-txtBold pb-5 font-medium text-center pt-12 lg:pt-0">
-            Free Forever <br class="hidden lg:block"> for your <span class="text-eazi_red-10">salary <br> payment</span>
+            Free Forever <br class="hidden lg:block"> for your <span class="text-eazi_red-10">salary <br class="hidden md:block"> payment</span>
           </h2>
           <div class="hidden lg:block pt-12">
             <p class=" text-txtBold text-[18px]">Subscribe to the Eazilife today</p>

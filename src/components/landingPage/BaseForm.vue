@@ -4,7 +4,7 @@
       <div class="text-center">
         <h3 class="text-[28px] font-bold text-[#292A29]">First things first</h3>
         <p class="py-4 text-[18px]">
-          We want to serve you better. Tell us a bit <br> about yourself or company
+          We want to serve you better. Tell us a bit <br class="hidden md:block"> about yourself or company
         </p>
       </div>
       <TabWrapper class="py-8">
