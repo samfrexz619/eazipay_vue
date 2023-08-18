@@ -17,7 +17,9 @@
         </div>
         <div className='mt-10'>
           <BaseButton variant='filled' class='py-3'>
-            Register
+            <router-link to="/dashboard">
+              Register
+            </router-link>
           </BaseButton>
         </div>
       </div>

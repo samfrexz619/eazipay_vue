@@ -10,7 +10,12 @@
             <p class="text-textPry py-2">Click here to set up your Eazipay account.</p>
           </div>
           <span>
-            <svg width="50" height="222" viewBox="0 0 50 222">
+            <svg 
+              width="50" 
+              height="222" 
+              viewBox="0 0 50 222" 
+              class=""
+            >
               <use xlink:href="/sprite.svg#step1" />
             </svg>
           </span>
