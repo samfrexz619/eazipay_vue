@@ -6,9 +6,9 @@
     <svg v-else-if="name === 'wallet'" width="21" height="22" viewBox="0 0 21 22" >
       <use xlink:href="/sprite.svg#wallet" />
     </svg>
-    <svg v-else-if="name === 'wallet'" width="21" height="20" viewBox="0 0 21 20">
+    <!-- <svg v-else-if="name === 'wallet'" width="21" height="20" viewBox="0 0 21 20">
       <use xlink:href="/sprite.svg#wallet" />
-    </svg>
+    </svg> -->
     <svg v-else-if="name === 'employment management'" width="21" height="20" viewBox="0 0 21 20">
       <use xlink:href="/sprite.svg#empMgt" />
     </svg>

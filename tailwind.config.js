@@ -16,7 +16,7 @@ export default {
         grey_10: '#7C7C7C',
         txtBold: '#292A29',
         pryHov: 'rgba(240, 247, 235, 0.50)',
-        lemon: '#DAE9D0'
+        lemon: '#DAE9D0',
       },
       boxShadow: {
         100: '0px 8px 16px 0px rgba(17, 69, 59, 0.20)',
@@ -24,6 +24,7 @@ export default {
         300: '0px 20px 48px 0px rgba(170, 170, 170, 0.29)',
         10: '4px 0px 25px 0px rgba(170, 170, 170, 0.08)',
         20: '0px 4px 25px 0px rgba(0, 0, 0, 0.05)',
+        30: '0px 6px 12px 0px rgba(170, 170, 170, 0.11)'
       },
       spacing: {
         '9px': '9px',

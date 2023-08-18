@@ -22,7 +22,7 @@
               v-if="link.name !== 'dashboard' 
               && link.name !== 'wallet'
               && link.name !== 'support'" 
-              class=""
+              class="pr-3"
             >
               <ChevIcons  />
             </span>
