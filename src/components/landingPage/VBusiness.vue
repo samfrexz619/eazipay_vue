@@ -7,8 +7,8 @@
         </h1>
         <p class="text-center pt-2">Join 200+ businesses using Eazipay's easy solution.</p>
       </div>
-      <div class="py-10 lg:flex relative w-full">
-        <div class='lg:relative lg:left-0'>
+      <div class="py-10 lg:flex relative">
+        <div class='lg:relative lg:left-0 cards start'>
           <BaseCard title='Tamper-proof Payroll for LIfe'>
             <div>
               <p class="py-1">Your staff payroll history is kept in one place forever.</p>
@@ -17,7 +17,7 @@
             </div>
           </BaseCard>
         </div>
-        <div class="lg:absolute lg:left-[25%] py-5 lg:py-0">
+        <div class="lg:absolute lg:left-[25%] py-5 lg:py-0 cards mid">
           <BaseCard title='All Payroll, Anytime Anywhere'>
             <div>
               <p class="py-1">Wherever you are Eazipay has got you covered on ALL your Payroll tasks.</p>
@@ -27,7 +27,7 @@
             </div>
           </BaseCard>
         </div>
-        <div class='lg:absolute lg:right-0'>
+        <div class='relative right-0 cards third'>
           <BaseCard title='Payroll in Seconds'>
             <div>
               <p class="py-1">Never again wil you spend more than 2 minutes on payroll.</p>
@@ -70,6 +70,31 @@ import BaseCard from './BaseCard.vue';
   // transition: .45s cubic-bezier(.175,.585,.32,1.2075);
   h1 {
     font-family: mellow;
+  }
+}
+@media(min-width: 1024px) {
+  .cards {
+    width: 610px;
+    transition: 4s, 2s ease-in-out;
+  }
+  .start {
+    padding-right: 20px;
+  }
+  .mid {
+    left: 25%;
+    width: 50%;
+  }
+  .start:hover~.mid {
+    left: 45%
+  }
+  .mid:hover {
+    left: 10%
+  }
+  .mid:hover~.third {
+    left: 5%
+  }
+  .third:hover {
+    left: -2%
   }
 }
 </style>

@@ -39,10 +39,15 @@ const router = createRouter({
       meta: {
         layout: 'dashboard'
       },
-      // route level code-splitting
-      // this generates a separate chunk (Payroll.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
       component: () => import('../views/PayrollView.vue')
+    },
+    {
+      path: '/demo',
+      name: 'demo',
+      meta: {
+        layout: 'dashboard'
+      },
+      component: () => import('../views/DemoView.vue')
     },
   ]
 })
